@@ -1,0 +1,8 @@
+# ignorando a configuração de venv
+venv/
+
+# ignorando o pycache
+__pycache__/
+
+# ignorando o arquivo de banco
+db.sqlite3
