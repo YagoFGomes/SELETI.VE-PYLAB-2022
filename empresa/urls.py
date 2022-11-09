@@ -5,4 +5,5 @@ urlpatterns = [
     path('nova_empresa/', views.NovaEmpresa, name='nova_empresa'),
     path('empresas/', views.Empresas, name='empresas'),
     path('excluir_empresa/<int:id>', views.ExcluirEmpresa, name="excluir_empresa"),
+    path('empresa/<int:id>', views.EmpresaUnica, name="empresa_unica"),
 ]
