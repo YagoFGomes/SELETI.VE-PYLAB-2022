@@ -147,3 +147,9 @@ MESSAGE_TAGS = {
     constants.INFO: 'alert-info',
     constants.WARNING: 'alert-warning',
 }
+
+# Mimetypes
+
+import mimetypes
+mimetypes.add_type("text/css", ".css", True)
+mimetypes.add_type("image/png", ".png", True)
